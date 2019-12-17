@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
   void remove(int index) {
     setState(() {
       widget.itens.removeAt(index);
-      save();
+      save();////aa
     });
   }
 
